@@ -3,11 +3,12 @@ plugins {
 }
 
 android {
-  compileSdkVersion 32
 
   defaultConfig {
-    minSdkVersion 14
-    targetSdkVersion 30
+    namespace "com.getbase.floatingactionbutton"
+    minSdkVersion 26
+    targetSdkVersion 34
+    compileSdk 34
     versionName project.VERSION_NAME
     versionCode Integer.parseInt(project.VERSION_CODE)
     consumerProguardFiles 'consumer-proguard-rules.pro'

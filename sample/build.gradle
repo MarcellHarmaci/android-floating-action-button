@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-  compileSdkVersion 32
 
   defaultConfig {
+    namespace "com.getbase.floatingactionbutton.sample"
     applicationId "com.getbase.floatingactionbutton.sample"
-    minSdkVersion 14
-    targetSdkVersion 30
+    minSdkVersion 26
+    targetSdkVersion 34
+    compileSdk 34
     versionCode 1
     versionName "1.0"
   }
